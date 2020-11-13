@@ -88,6 +88,7 @@ class AddAutoIndexCommand extends Command
         $finder
             ->directories()
             ->in($dir)
+            ->ignoreDotFiles(false)
             ->exclude($this->filters);
 
         $output->writeln('Updating directories in ' . $dir . ' folder ...');
