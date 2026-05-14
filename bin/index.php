@@ -1,4 +1,5 @@
 <?php
+
 /**
  * 2007-2020 PrestaShop and Contributors
  *

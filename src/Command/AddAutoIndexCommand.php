@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright since 2007 PrestaShop SA and Contributors
  * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
@@ -32,7 +33,7 @@ use Symfony\Component\Finder\Finder;
 
 class AddAutoIndexCommand extends Command
 {
-    const DEFAULT_FILTERS = [];
+    public const DEFAULT_FILTERS = [];
 
     /**
      * List of folders to exclude from the search
