@@ -10,22 +10,20 @@
         }
     ],
     "require": {
-        "php": "^8.0 || ^7.2",
+        "php": "^7.4|^8.0",
         "symfony/console": "^3.4 || ~4.0 || ~5.0 || ~6.0",
         "symfony/finder": "^3.4 || ~4.0 || ~5.0 || ~6.0",
         "nikic/php-parser": "^4.10"
     },
     "require-dev": {
-      "prestashop/php-dev-tools": "1.*",
-      "phpstan/phpstan": "^0.12.83"
+        "prestashop/php-dev-tools": "^5",
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.4"
     },
     "config": {
         "preferred-install": "dist",
         "prepend-autoloader": false,
-        "optimize-autoloader": true,
-        "platform": {
-            "php": "7.2"
-        }
+        "optimize-autoloader": true
     },
     "bin": ["bin/autoindex"],
     "autoload": {
